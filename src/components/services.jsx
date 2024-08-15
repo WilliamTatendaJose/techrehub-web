@@ -35,7 +35,7 @@ const ServicesSection = () => {
     },
     {
       icon: Tv2Icon,
-      title: "SmartBoard",
+      title: "SmartBoard Repair",
       description: "Specialized repair for your smartboards. Get back to presenting now."
     },
     {

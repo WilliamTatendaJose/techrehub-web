@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Tech Rehub</h3>
             <p className="text-gray-300">Reviving Your Devices.</p>
@@ -41,14 +41,14 @@ const Footer = () => {
             </ul>
           </div> */}
 
-          <div>
-            <h4 className="text-left text-lg font-semibold mb-4">Contact Us</h4>
+          <div >
+            <h4 className="justify-center text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
-              <li className="flex items-center">
+              <li className="flex  justify-center items-center">
                 <Phone size={16} className="mr-2" />
                 <span>+263 773 447 131</span>
               </li>
-              <li className="flex items-center">
+              <li className="flex justify-center items-center">
                 <Mail size={16} className="mr-2" />
                 <a href="mailto:support@techrehub.co.zw" className="hover:text-white">support@techrehub.co.zw</a>
               </li>
