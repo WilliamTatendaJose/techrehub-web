@@ -57,13 +57,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0">
-            <img 
-              src="./src/assets/close-up-circuit-board-with-copy-space.jpg" 
-              alt="Electronics Repair" 
-              className="rounded-lg shadow-xl"
-            />
-          </div>
+        
         </div>
       </div>
         </div>
