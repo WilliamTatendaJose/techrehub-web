@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "techrehub_functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7137",
+      "launchBrowser": false
+    }
+  }
+}
