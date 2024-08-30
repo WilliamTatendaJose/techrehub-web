@@ -46,7 +46,7 @@ const RepairSection = () => {
     const newErrors = validateForm();
     if (Object.keys(newErrors).length === 0) {
       try {
-        const response = await fetch("",
+        const response = await fetch('${process.env.REACT_APP_AZURE_FUNCTION_URL}',
         { method:'POST',
           headers:{
             'Content-Type':'application/json'
